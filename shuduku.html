@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>sudoku</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<style>
+	.sudoku{
+		width: 360px;
+		padding: 10px;
+		float: left;
+	}
+	.sudoku_matrix{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	.sudoku_row{
+		clear: both;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	.sudoku_row li{
+		cursor: pointer;
+		float: left;
+		border: 1px solid gray;
+		width: 38px;
+		height: 38px;
+		line-height: 38px;
+	}
+	.sudoku_numbers{
+		clear: both;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	.sudoku_numbers li{
+		cursor: pointer;
+		float: left;
+		border: 1px solid gray;
+		width: 38px;
+		height: 38px;
+		line-height: 38px;
+		text-align: center;
+	}
+	</style>
+</head>
+<body>
+	<div id="sudoku1" class="sudoku">
+		<div class="sudoku_panel">
+			<button type="button">Start</button>
+			<button type="button">Submit</button>
+			<button type="button">Stop</button>
+		</div>
+		<hr/>
+		<div class="sudoku_info"></div>
+		<div style="clear:both;"></div>
+		<ul class="sudoku_matrix">
+			<li>
+				<ul class="sudoku_row">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+			<li>
+				<ul class="sudoku_row">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+			<li>
+				<ul class="sudoku_row">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+			<li>
+				<ul class="sudoku_row">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+			<li>
+				<ul class="sudoku_row">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+			<li>
+				<ul class="sudoku_row">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+			<li>
+				<ul class="sudoku_row">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+			<li>
+				<ul class="sudoku_row">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+			<li>
+				<ul class="sudoku_row">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+		</ul>
+		<div style="clear:both;"></div>
+		<hr/>
+		<ul class="sudoku_numbers">
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+			<li>6</li>
+			<li>7</li>
+			<li>8</li>
+			<li>9</li>
+		</ul>
+	</div>
+	<div id="sudoku2" class="sudoku">
+		
+	</div>
+</body>
+</html>
