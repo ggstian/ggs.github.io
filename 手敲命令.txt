@@ -1,0 +1,35 @@
+  156  git init
+  157  git add .
+  158  git commit -m '7.17'
+  159  git rm .settings/ -rf
+  160  git status
+  161  git checkout -- .settings
+  162  git checkout master  -- ./
+  163  git status
+  164  git add .
+  165  git commit -m '17.7.17'
+  166  git remote add o http://ggstian@192.168.0.128/dahui/concept-BJ1701-1.git
+  167  git fetch --all
+  168  git merge o/groupTwo
+  169  git merge o/groupTwo --allow-unrelated-histories
+  170  git checkout o/groupTwo -- ./
+  171  git commit -a
+  172  git checkout -b ggs
+  173  git push -u o ggs
+  174  history
+
+	自己上传
+  182  mkdir ygj-junit
+  183  cd ygj-junit
+  184  git add .
+  185  git commit -m '18'
+  186  git remote add origin http://ggstian@192.168.0.128/ggstian/junit-one.git
+  187  git push -u origin master
+  188  history
+
+
+
+
+mogondb中进入mogondb数据库：   ./mongodb/bin/mongo --port 30001
+mogondb中关闭防火墙：   service iptables stop
+
